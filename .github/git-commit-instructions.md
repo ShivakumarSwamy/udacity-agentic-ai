@@ -16,6 +16,7 @@ Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and s
 - **scope**: Use the file location in the format `chapterX: lessonY: quiz` or similar, based on the file path. For example:
   - `chapter1: lesson1: quiz` for changes in `chapter1/lesson1/quizzes/quiz1.txt`
   - `chapter2: lesson3: notes` for changes in `chapter2/lesson3/notes/<placeholder-name>.md`
+  - `chapter2: lesson2: exercises` for changes in `chapter2/lesson3/exercises/exercise1/<any-file>`
 
 ## Examples
 
