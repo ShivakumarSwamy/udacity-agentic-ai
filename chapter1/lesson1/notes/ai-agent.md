@@ -8,7 +8,7 @@
 
 ## Components of an AI Agent
 
-- Large Language Models
+- Large Language Models (brain)
 - Tools (API's or resources)
 - Instructions (system prompt)
 - Memory (short-term memory or long-term memory)
