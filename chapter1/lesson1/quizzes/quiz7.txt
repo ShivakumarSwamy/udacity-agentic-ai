@@ -1,0 +1,6 @@
+Match the components of an AI agent with their descriptions.
+
+The brain of the agent that processes and generates language. - Large Language Model (LLM)
+Guidelines that dictate how the agent should behave. - Instructions
+Non-memory component that links tools and LLM execution. - Runtime/Orchestration Layer
+External resources and functions used by the agent. - Tools

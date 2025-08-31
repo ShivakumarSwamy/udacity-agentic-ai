@@ -1,0 +1,3 @@
+What is the primary purpose of prompting in relation to LLMs?
+
+- Prompting is a method to guide LLMs by providing structured instructions to perform tasks.
