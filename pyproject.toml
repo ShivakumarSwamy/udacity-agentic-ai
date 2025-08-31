@@ -3,4 +3,12 @@ name = "udacity-agentic-ai"
 version = "0.1.0"
 description = "udacity agentic ai nanodegree project"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "openai>=1.102.0",
+    "python-dotenv>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
