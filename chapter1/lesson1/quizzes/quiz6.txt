@@ -1,0 +1,8 @@
+Scenario: You are designing an AI assistant to help users with financial questions. A user asks:
+
+"Based on my current checking account balance, can I afford to buy the new 'X-1' laptop that was just released?"
+A standard LLM cannot answer this question directly because it doesn't have access to the user's private, real-time bank information.
+
+Question: To solve this problem, which component would an AI Agent need to use to find the user's current account balance?
+
+- A Tool, such as a `get_account_balance` API function
