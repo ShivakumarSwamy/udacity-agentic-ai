@@ -1,0 +1,3 @@
+In the context of interacting with a Large Language Model (LLM), what is a 'prompt'?
+
+- The input text or instructions provided to the LLM to guide its response

@@ -1,0 +1,3 @@
+In a Jupyter Notebook, how do you typically execute a code cell and see its output?
+
+- By selecting the cell and pressing Shift + Enter (or using a 'Run' button in the interface)

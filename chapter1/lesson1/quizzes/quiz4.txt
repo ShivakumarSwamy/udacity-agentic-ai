@@ -1,0 +1,3 @@
+What is the primary purpose of a Python dictionary?
+
+- To store key-value pairs
