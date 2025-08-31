@@ -1,0 +1,4 @@
+Why is a single, simple prompt often insufficient for guiding an LLM through a complex or multi-step task?
+
+- Because complex tasks require a sequence of reasoning, planning, and actions that a single prompt cannot
+  adequately structure or guide.
