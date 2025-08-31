@@ -1,0 +1,6 @@
+[project]
+name = "udacity-agentic-ai"
+version = "0.1.0"
+description = "udacity agentic ai nanodegree project"
+requires-python = ">=3.13"
+dependencies = []
