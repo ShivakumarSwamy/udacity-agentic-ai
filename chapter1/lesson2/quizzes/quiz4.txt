@@ -1,0 +1,10 @@
+Your team is building a new AI-powered customer support chatbot for an e-commerce website.
+The agent is designed with a clear, multi-step prompt chain: it first identifies the user's product category,
+then retrieves FAQs for that category, and finally, drafts an answer based on the retrieved information.
+
+The chatbot needs to handle thousands of common customer questions per day,
+and user experience (getting a fast answer) is a top priority.
+
+- Start with a smaller, faster model (like GPT-4o-mini). Since the task is broken down to clear steps
+  (identify, retrieve, draft), this model is likely capable enough. This approach prioritizes low latency for the user
+  and keeps operational costs down.
