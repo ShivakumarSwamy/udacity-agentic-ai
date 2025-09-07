@@ -1,0 +1,6 @@
+Match each component of a role-based prompt with its corresponding description.
+
+Defines the character or specialization for the LLM - Role
+Details the specific task or request posed to the LLM - Task
+Describes how the output format should appear to meet expectations - Output Format
+Provides context or examples to clarify task requirements - Examples
