@@ -1,0 +1,8 @@
+You are using an AI to help draft a marketing announcement for a new enterprise software product aimed at chief financial officers (CFOs). You ask the AI, "Draft an announcement for our new accounting software."
+
+The AI returns a factually correct draft, but the tone is very casual and uses a lot of emojis, which is not appropriate for the target audience.
+
+What is the most direct way to solve this problem?
+
+- Add a specific role to the prompt, such as "You are a professional B2B marketing writer specializing in content for
+  an executive financial audience"
