@@ -3,13 +3,13 @@
 - A prompt is a set of instructions provided to an LLM that customizes, enhances, or refines its capabilities
 - Prompting is the method by which we "program" the LLM.
 
-# Guide
+## Guide
 
 - Assign a professional persona
 - Introduce concrete constraints
 - Request Step-by-Step Reasoning
 
-# Example Organize My Workspace
+### Example Organize My Workspace
 
 user prompt
 
@@ -45,7 +45,7 @@ The plan must be achievable in one hour and require no purchases, using only exi
 Explain your reasoning for each step of the plan in a thoughtful way before presenting the final checklist.
 ```
 
-# Prompting & Efficiency
+## Prompting & Efficiency
 
 > you can try to solve a complex problem by giving a vague instruction to a very large, expensive model
 > (like OpenAI o3) and hoping it correctly infers all the necessary steps.
