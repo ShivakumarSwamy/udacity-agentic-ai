@@ -1,0 +1,25 @@
+You are writing a Python script to make an AI act as a witty pirate. You have the system_prompt string defined:
+
+```
+system_prompt = "You are a witty pirate who speaks in pirate slang."
+```
+
+Below is a snippet of Python code that constructs the messages list to be sent to the LLM.
+
+```
+user_content = "What is the treasure of Skeleton Island?"
+
+# How should the 'messages' list be constructed?
+messages = [
+    # --- CHOOSE THE CORRECT OPTION TO GO HERE ---
+
+    {"role": "user", "content": user_content}
+]
+```
+
+Question: Which option correctly implements the role-based prompt?
+
+Answer:
+```
+{ "role": "system", "content": system_prompt }
+```
