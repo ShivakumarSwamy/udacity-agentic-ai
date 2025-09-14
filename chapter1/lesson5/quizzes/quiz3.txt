@@ -1,0 +1,6 @@
+Match the prompting techniques with their descriptions:
+
+Encourages multi-step reasoning - Chain-of-Though prompting
+Combines reasoning with external actions - ReAct prompting
+Utilizes examples to showcase problem-solving steps - Few-shot CoT
+Instructs model to think without prior examples - Zero-shot CoT

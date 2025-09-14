@@ -1,0 +1,5 @@
+Which of the following statements accurately describe key aspects of ReAct prompting?
+
+- ReAct incorporates a cycle of Thought, Action, and Observation.
+- ReAct allows models to retrieve new information from external tools when required.
+- ReAct prompts facilitate learning from past actions and adapting strategies.

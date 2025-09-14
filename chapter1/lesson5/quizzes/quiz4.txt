@@ -1,0 +1,4 @@
+What are some key benefits of using Chain-of-Thought (CoT) prompting in large language models?
+
+- CoT prompting improves model's reasoning capabilities, leading to fewer errors.
+- CoT prompting increases transparency, allowing users to inspect reasoning processes.

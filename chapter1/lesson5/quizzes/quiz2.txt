@@ -1,0 +1,11 @@
+An AI project manager assistant is given the following problem:
+
+"Our product launch is behind schedule because the user interface (UI) design is delayed.
+Create a plan to get us back on track."
+
+To solve this, the AI needs to generate a multi-step recovery plan. It cannot just give generic advice;
+it must analyze the situation and create a sequence of concrete actions.
+
+- The AI Agent uses a ReAct/CoT prompt to structure it's Reasoning. (e.g., "The UI is a bottleneck") and then generate
+a plan (a sequence of recovery steps)
+
