@@ -1,0 +1,3 @@
+How would you retrieve the value associated with the key 'user_name' from the dictionary 'my_data'?
+
+- my_data["user_name"]

@@ -1,0 +1,4 @@
+What part of an API call to an AI model is primarily used to define the character
+or context in which the AI should respond?
+
+- The "system" message (or system prompt), which sets the context for the AI's character.
