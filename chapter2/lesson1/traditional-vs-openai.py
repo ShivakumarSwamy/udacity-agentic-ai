@@ -4,7 +4,7 @@ from app.util import openai_client, OpenAIModels
 
 load_dotenv()
 
-client = openai_client(url="https://chat.expertcity.com/api")
+client = openai_client()
 
 
 def traditional_generate_response(query):

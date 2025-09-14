@@ -58,7 +58,5 @@ def display_responses(*args):
     print(markdown_string)
 
 
-def openai_client(url="https://openai.vocareum.com/v1"):
-    return OpenAI(
-        base_url=url
-    )
+def openai_client():
+    return OpenAI()
