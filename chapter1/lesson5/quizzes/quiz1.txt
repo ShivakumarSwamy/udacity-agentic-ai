@@ -1,0 +1,11 @@
+You are prompting an AI to solve a classic logic puzzle. The puzzle is:
+
+"""
+"You have three boxes. One is labeled 'APPLES', one is labeled 'ORANGES', and one is labeled 'APPLES AND ORANGES'.
+You know that every single label is on the wrong box. You are allowed to pick only one fruit from one box
+(without looking inside) to figure out the correct labels for all three. Which box should you pick from?"
+"""
+
+To solve this, the AI needs to reason through the problem internally. It doesn't need an external tool, but it does need a logical plan.
+
+Question: What is the first critical reasoning step the AI must take, which a Chain-of-Thought prompt would help it deduce?
