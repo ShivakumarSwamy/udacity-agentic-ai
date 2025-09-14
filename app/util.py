@@ -1,5 +1,7 @@
 from enum import Enum
 
+from openai import OpenAI
+
 
 class OpenAIModels(str, Enum):
     GPT_4O_MINI = "gpt-4o-mini"
@@ -54,3 +56,9 @@ def display_responses(*args):
         markdown_string += f"<td>Response:<br />{arg['response']}</td>"
     markdown_string += "</tr></table>"
     print(markdown_string)
+
+
+def openai_client(url="https://openai.vocareum.com/v1"):
+    return OpenAI(
+        base_url=url
+    )
