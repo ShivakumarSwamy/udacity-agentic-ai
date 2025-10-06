@@ -21,8 +21,7 @@ Is ‘3 + 1 \= 4’ correct? Work out your own solution step by step then compar
 ### Self-Consistency Prompting
 
 - Generating multiple reasoning paths or solutions for a given problem and then selecting the most frequent of
-  consistent
-  among them.
+  consistent among them.
 - This technique leverages the idea that by sampling different reasoning processes, the model can arrive at a more
   reliable and accurate conclusion.
 
