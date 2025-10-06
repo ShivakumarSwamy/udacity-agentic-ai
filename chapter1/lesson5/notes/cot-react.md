@@ -47,11 +47,11 @@ Is ‘3 + 1 \= 4’ correct? Work out your own solution step by step then compar
 - Observation: The model receives the results or feedback from the executed action (e.g., search results, calculator
   answer, confirmation of an email sent). This new information feeds into the next Thought. This observation, sometimes
   referred to as information from the "environment" if it's from the outside world like a weather report, then feeds
-  back
-  into the model's next Thought, allowing it to refine its plan or take subsequent actions.
+  back into the model's next Thought, allowing it to refine its plan or take subsequent actions.
 
-This cycle repeats until the agent specifies an action to return the final result. Each step is normally recorded in the
-message history of the chat.
+This cycle repeats until the agent specifies an "action" to return the final result. _Each step is normally recorded in
+the
+message history of the chat._
 
 Note:
 ReACT (and agent) prompts are often long. It's not unusual for them to contain paragraphs of text and multiple parts.
