@@ -1,15 +1,12 @@
 from dotenv import load_dotenv
-from openai import OpenAI
 
-from app.util import get_completion, display_responses, MODEL
+from app.util import get_completion, display_responses, MODEL, openai_client
 
 load_dotenv()
 
 
 def main():
-    client = OpenAI(
-        base_url="https://openai.vocareum.com/v1"
-    )
+    client = openai_client()
 
     suspicious_email_text = """
     From: SecureBank Support <support-update@secure-bank-net.com>
