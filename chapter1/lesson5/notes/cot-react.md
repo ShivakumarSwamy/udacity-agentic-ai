@@ -36,7 +36,7 @@ Is ‘3 + 1 \= 4’ correct? Work out your own solution step by step then compar
        observation ---------- action
 ```
 
-- The core of ReAct is its iterative loop: Thought, Action, Observation.
+- The core of ReAct is its iterative loop: Thought/Think, Action, Observation/Results.
 
 - Thought: The model internally reasons and plans the next specific step required to progress towards the overall task
   goal. It analyzes the situation, figures out necessary steps, and decides on an action.
