@@ -12,6 +12,27 @@ class OpenAIModels(str, Enum):
 MODEL = OpenAIModels.GPT_41_NANO
 
 
+def get_completion_v2(client, messages, model=MODEL):
+    """
+    Function to get a completion from the OpenAI API.
+    Args:
+        client: open api client
+        messages: array of role message
+        model: The model to use (default is gpt-4.1-mini)
+    Returns:
+        The completion text
+    """
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            temperature=0.7,
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"An error occurred: {e}"
+
+
 def get_completion(client, system_prompt, user_prompt, model=MODEL):
     """
     Function to get a completion from the OpenAI API.
