@@ -10,6 +10,7 @@ class OpenAIModels(str, Enum):
 
 
 MODEL = OpenAIModels.GPT_41_NANO
+SINGLE_TAB_LEVEL = 4
 
 
 def get_completion_v2(client, messages, model=MODEL):
@@ -81,3 +82,59 @@ def display_responses(*args):
 
 def openai_client():
     return OpenAI()
+
+
+def print_in_box(text, title="", cols=100, tab_level=0):
+    """
+    Prints the given text in a box with the specified title and dimensions.
+
+    Args:
+        text: The text to print in the box.
+        title: The title of the box.
+        cols: The width of the box.
+        tab_level: The level of indentation for the box.
+    """
+    import textwrap
+
+    text = str(text)
+
+    # Make a box using extended ASCII characters
+    if cols < 4 + tab_level * SINGLE_TAB_LEVEL:
+        cols = 4 + tab_level * SINGLE_TAB_LEVEL
+
+    tabs = " " * tab_level * SINGLE_TAB_LEVEL
+
+    top = (
+            tabs
+            + "\u2554"
+            + "\u2550" * (cols - 2 - tab_level * SINGLE_TAB_LEVEL)
+            + "\u2557"
+    )
+    if tab_level == 0:
+        print()  # Print a newline before any box at level 0
+
+    if title:
+        # replace the middle of the top with the title
+        title = "[ " + title + " ]"
+        top = top[: (cols - len(title)) // 2] + title + top[(cols + len(title)) // 2:]
+    print(top)
+
+    for line in text.split("\n"):
+        for wrapped_line in textwrap.wrap(
+                line, cols - 4 - tab_level * SINGLE_TAB_LEVEL
+        ):
+            print(
+                f"{tabs}\u2551 {wrapped_line:<{cols - 4 - tab_level * SINGLE_TAB_LEVEL}} \u2551"
+            )
+
+    print(
+        f"{tabs}\u255a"
+        + "\u2550" * (cols - 2 - tab_level * SINGLE_TAB_LEVEL)
+        + "\u255d"
+    )
+
+
+def print_in_box_all_prompts_and_response(system_prompt, user_prompt, response):
+    print_in_box(system_prompt, "System Prompt")
+    print_in_box(user_prompt, "User Prompt")
+    print_in_box(response, "Response")
