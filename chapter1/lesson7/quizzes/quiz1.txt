@@ -1,0 +1,6 @@
+Match the strategies used for optimizing LLM prompts with their respective descriptions.
+
+Modifying role to change tone and perspective - Adjust Role
+Providing specific examples to guide the model's output style - Use Examples
+Clarifying output structure to achieve consistent formatting - Define Output Format
+Streamlining tasks into simpler steps to enhance engagement - Break Down Tasks
