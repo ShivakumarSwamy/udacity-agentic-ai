@@ -1,0 +1,5 @@
+What components are important for effectively chaining prompts in AI agents?
+
+- Memory allows AI agents to learn and maintain consistency across tasks.
+- Tools provide external functions and APIs for enhanced capabilities in AI Agents
+- Sequential Prompting helps break down complex tasks into smaller subtasks.

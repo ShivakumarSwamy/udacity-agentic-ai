@@ -1,0 +1,5 @@
+Which of the following statements about gate checks in AI workflows are true?
+
+- Content checks can be used to validate keyword relevance and topic adherence.
+- Logic checks verify that outputs make numerical and logical sense.
+- Implementing gate checks helps ensure quality control in an AI workflow.

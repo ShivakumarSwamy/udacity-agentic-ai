@@ -1,0 +1,6 @@
+Match each component of prompt chaining to its appropriate description:
+
+Breaking complex tasks into smaller steps and organizing them sequentially - Sequential Prompting
+Connecting outputs from one task to be used as inputs for the next task in a series - Task Chaining
+Procedure for ensuring each task's output meets specified criteria before proceeding further - Gate Checks
+The system in charge of managing the order and execution of tasks and prompts - Runtime/Orchestration Layer
