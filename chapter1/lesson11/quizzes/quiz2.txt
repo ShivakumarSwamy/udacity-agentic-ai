@@ -1,0 +1,5 @@
+What are some key aspects of feedback loops in LLMs that contribute to their effectiveness?
+
+- Effective monitoring is necessary to evaluate the success of feedback loops in improving output quality.
+- Feedback loops enable LLM to learn and improve their outputs over multiple iterations.
+- User input can serve as a valuable source of feedback to refine LLM outputs.

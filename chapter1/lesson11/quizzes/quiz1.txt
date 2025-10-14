@@ -1,0 +1,7 @@
+Match the method of feedback integration with its description
+
+Self-Correction - Prompting the LLM to review its response
+External Tools - Running code through testing tools
+Validation Checks - Programmatic checks on output
+Goal Adherence - Evaluating progress towards target results
+Monitoring - Tracking improvements during iterations
